@@ -1,0 +1,6 @@
+# Covered by root .gitignore — kept as a local safety net
+.env
+__pycache__/
+env/
+repos/
+chroma_db/

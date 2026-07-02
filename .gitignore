@@ -1,0 +1,38 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# ── Virtual environment ───────────────────────────────────
+env/
+venv/
+.venv/
+
+# ── Environment / secrets ─────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Cloned repos (can be large) ───────────────────────────
+backend/repos/
+
+# ── ChromaDB vector store (regenerated on load) ───────────
+backend/chroma_db/
+
+# ── Node / Frontend ───────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# ── IDE / OS ──────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
